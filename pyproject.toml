@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "project-series-temporais"
+version = "0.1.0"
+description = ""
+authors = ["nayarasobral <nayysobrall@gmail.com>"]
+license = "MIT 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.41.1"
+pandas = "^2.2.3"
+statsmodels = "^0.14.4"
+matplotlib = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
